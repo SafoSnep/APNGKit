@@ -285,6 +285,7 @@
 					4B92AA3F1E91E43500760A61 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = T499X543T7;
+						LastSwiftMigration = 1150;
 						ProvisioningStyle = Automatic;
 					};
 					4B92AA781E91E71400760A61 = {
@@ -529,7 +530,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.onevcat.APNGDemo-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -542,7 +543,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.onevcat.APNGDemo-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

@@ -545,7 +545,7 @@
 				TargetAttributes = {
 					4B0D67381B8E9DBF00876BDF = {
 						CreatedOnToolsVersion = 7.0;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1150;
 					};
 					4B0D67421B8E9DC000876BDF = {
 						CreatedOnToolsVersion = 7.0;
@@ -960,7 +960,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -981,7 +981,7 @@
 				PRODUCT_NAME = APNGKit;
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
