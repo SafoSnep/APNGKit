@@ -46,7 +46,7 @@ class DetailViewController: UIViewController {
             if path.contains("@2x") {
                 apngImage = APNGImage(named: (path as NSString).lastPathComponent, progressive: true)
             } else {
-                apngImage = APNGImage(contentsOfFile: path, saveToCache: true, progressive: true)
+                apngImage = APNGImage(contentsOfFile: path, saveToCache: true, progressive: false)
             }
             let end = CACurrentMediaTime()
             

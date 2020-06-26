@@ -43,6 +43,8 @@
 		4B92AAA11E91ED4700760A61 /* over_previous.apng in Resources */ = {isa = PBXBuildFile; fileRef = 4B92AA961E91ED4700760A61 /* over_previous.apng */; };
 		4B92AAA21E91ED4700760A61 /* pyani.apng in Resources */ = {isa = PBXBuildFile; fileRef = 4B92AA971E91ED4700760A61 /* pyani.apng */; };
 		4B92AAA31E91ED4700760A61 /* spinfox.apng in Resources */ = {isa = PBXBuildFile; fileRef = 4B92AA981E91ED4700760A61 /* spinfox.apng */; };
+		E3DC21E824A5F2A40010329C /* farfetchd.apng in Resources */ = {isa = PBXBuildFile; fileRef = E3DC21E724A5F2A40010329C /* farfetchd.apng */; };
+		E3DC21E924A5F2A40010329C /* farfetchd.apng in Resources */ = {isa = PBXBuildFile; fileRef = E3DC21E724A5F2A40010329C /* farfetchd.apng */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -109,6 +111,7 @@
 		4B92AA961E91ED4700760A61 /* over_previous.apng */ = {isa = PBXFileReference; lastKnownFileType = file; path = over_previous.apng; sourceTree = "<group>"; };
 		4B92AA971E91ED4700760A61 /* pyani.apng */ = {isa = PBXFileReference; lastKnownFileType = file; path = pyani.apng; sourceTree = "<group>"; };
 		4B92AA981E91ED4700760A61 /* spinfox.apng */ = {isa = PBXFileReference; lastKnownFileType = file; path = spinfox.apng; sourceTree = "<group>"; };
+		E3DC21E724A5F2A40010329C /* farfetchd.apng */ = {isa = PBXFileReference; lastKnownFileType = file; path = farfetchd.apng; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +182,7 @@
 				4B92AA621E91E4E800760A61 /* over_previous.apng */,
 				4B92AA631E91E4E800760A61 /* pyani.apng */,
 				4B92AA641E91E4E800760A61 /* spinfox.apng */,
+				E3DC21E724A5F2A40010329C /* farfetchd.apng */,
 			);
 			name = TestImages;
 			path = ../../TestImages;
@@ -325,6 +329,7 @@
 				4B92AA6F1E91E4E800760A61 /* spinfox.apng in Resources */,
 				4B92AA6A1E91E4E800760A61 /* minimalAPNG.apng in Resources */,
 				4B92AA6E1E91E4E800760A61 /* pyani.apng in Resources */,
+				E3DC21E824A5F2A40010329C /* farfetchd.apng in Resources */,
 				4B92AA691E91E4E800760A61 /* elephant_apng@2x.apng in Resources */,
 				4B92AA671E91E4E800760A61 /* ball.apng in Resources */,
 				4B92AA6D1E91E4E800760A61 /* over_previous.apng in Resources */,
@@ -345,6 +350,7 @@
 				4B92AA9D1E91ED4700760A61 /* elephant_apng@2x.apng in Resources */,
 				4B92AA801E91E71400760A61 /* Assets.xcassets in Resources */,
 				4B92AAA31E91ED4700760A61 /* spinfox.apng in Resources */,
+				E3DC21E924A5F2A40010329C /* farfetchd.apng in Resources */,
 				4B92AA9B1E91ED4700760A61 /* ball.apng in Resources */,
 				4B92AAA01E91ED4700760A61 /* over_none.apng in Resources */,
 				4B92AA9A1E91ED4700760A61 /* APNG-Icos4D.apng in Resources */,

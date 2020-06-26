@@ -22,6 +22,12 @@
 	<array>
 		<dict>
 			<key>description</key>
+			<string>Blend Over. Disposal Background: 150 x 150 pixels</string>
+			<key>name</key>
+			<string>over_background</string>
+		</dict>
+		<dict>
+			<key>description</key>
 			<string>This is a normal APNG image: 100 × 100 pixels, file size: 64 KB, looped, 20 frames</string>
 			<key>name</key>
 			<string>ball</string>
@@ -76,9 +82,9 @@
 		</dict>
 		<dict>
 			<key>description</key>
-			<string>Blend Over. Disposal Background: 150 x 150 pixels</string>
+			<string>Broken image?</string>
 			<key>name</key>
-			<string>over_background</string>
+			<string>farfetchd</string>
 		</dict>
 	</array>
 	<key>LSRequiresIPhoneOS</key>
