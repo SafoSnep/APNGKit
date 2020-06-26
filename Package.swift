@@ -1,29 +1,30 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.2
 import PackageDescription
 
 let package = Package(
     name: "APNGKit",
-    platforms: [.macOS(.v10_10), .iOS(.v8)],
+    platforms: [.macOS(.v10_15), .iOS(.v13)],
     products: [
         .library(
             name: "APNGKit",
-            targets: ["APNGKit"]),
+            targets: ["APNGKit"]
+		),
         .library(
             name: "Clibpng",
-            targets: ["Clibpng"]),
+            targets: ["Clibpng"]
+		),
     ],
+	dependencies: [],
     targets: [
         .target(
             name: "APNGKit",
-            dependencies: [
-                "Clibpng",
-            ],
+            dependencies: ["Clibpng"],
             path: "APNGKit",
             exclude: ["libpng-apng"]
         ),
         .target(
             name: "Clibpng",
-            path: "APNGKit/libpng-apng"),
-    ],
-    swiftLanguageVersions: [.v4_2]
+            path: "APNGKit/libpng-apng"
+		),
+    ]
 )
