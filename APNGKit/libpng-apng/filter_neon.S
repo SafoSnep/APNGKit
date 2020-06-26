@@ -1,9 +1,9 @@
 
 /* filter_neon.S - NEON optimised filter functions
  *
+ * Copyright (c) 2018 Cosmin Truta
  * Copyright (c) 2014,2017 Glenn Randers-Pehrson
  * Written by Mans Rullgard, 2011.
- * Last changed in libpng 1.6.31 [July 27, 2017]
  *
  * This code is released under the libpng license.
  * For conditions of distribution and use, see the disclaimer
@@ -18,6 +18,10 @@
 
 #if (defined(__linux__) || defined(__FreeBSD__)) && defined(__ELF__)
 .section .note.GNU-stack,"",%progbits /* mark stack as non-executable */
+#endif
+
+#ifdef __clang__
+.section __LLVM,__asm
 #endif
 
 #ifdef PNG_READ_SUPPORTED
